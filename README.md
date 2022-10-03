@@ -1,2 +1,2 @@
 # ListBulkDelete
-Simple implementation of list bulk delete
+Simple c# implementation of list bulk delete
