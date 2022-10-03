@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32120.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListBulkDelete", "src\ListBulkDelete\ListBulkDelete.csproj", "{7B7E1E33-4B3F-4FF5-9C08-DA149100058E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B7E1E33-4B3F-4FF5-9C08-DA149100058E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7E1E33-4B3F-4FF5-9C08-DA149100058E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7E1E33-4B3F-4FF5-9C08-DA149100058E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7E1E33-4B3F-4FF5-9C08-DA149100058E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EECBB30A-1EF7-4218-A2A1-EBE059A06A24}
+	EndGlobalSection
+EndGlobal
