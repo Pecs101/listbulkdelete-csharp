@@ -17,6 +17,12 @@ Simple c# implementation of list bulk delete
           <input type="checkbox" id="chk" class="classchk" value="@item.Id">
       </td>```
      
+### Code:
+in your controller method place this code, and do what ever task you need
+
+![image](https://user-images.githubusercontent.com/2583043/193855600-310227ac-302e-468e-9d14-4c5b53551590.png)
+
+     
 # Demo
 <img width="1008" alt="Bulkdelete" src="https://user-images.githubusercontent.com/2583043/193836547-6055823d-51b7-4150-8520-85f0b5b0c033.PNG">
 
