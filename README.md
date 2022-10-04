@@ -20,7 +20,7 @@ Simple c# implementation of list bulk delete
 ### Code:
 in your controller method place this code, and do what ever task you need
 
-![image](https://user-images.githubusercontent.com/2583043/193855600-310227ac-302e-468e-9d14-4c5b53551590.png)
+<img width="808" alt="Bulkdelete" src="https://user-images.githubusercontent.com/2583043/193855600-310227ac-302e-468e-9d14-4c5b53551590.png">
 
      
 # Demo
