@@ -1,7 +1,5 @@
 ﻿using ListBulkDelete.Models;
-using Microsoft.AspNetCore.Mvc;
-using Moq;
-using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc; 
 
 namespace ListBulkDelete.Controllers
 {
