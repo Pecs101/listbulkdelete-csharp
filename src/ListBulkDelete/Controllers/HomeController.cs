@@ -37,13 +37,10 @@ namespace ListBulkDelete.Controllers
         { 
             data.ToList().ForEach(id =>
             {
-                var dperson = _persons.FirstOrDefault(p => p.Id == int.Parse(id));
-                
-                /// Do what ever you supposed to do ...
-
+                /// Do the task ...
             });
 
-            return View("Index", _persons);
+            return View("Index");
         }
 
 
