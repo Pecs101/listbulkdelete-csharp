@@ -9,13 +9,19 @@ Simple c# implementation of list bulk delete
     ```<link rel="stylesheet" href="~/bulkaction/bulkbtn.css" asp-append-version="true" />```
     
     
-- to set the deletAll set the folloing code abouve the list, and pass in the controller and action name inside the delectbulkaction() function: 
-     ```<button type="button" class="btn btn-danger " id="deletebulk" onclick="delectbulkaction('Home', 'DeleteBulk')"> Delete</button>```
+- DeletAll: 
+set the following code above the list, and pass in the controller and action name inside the delectbulkaction() function: 
+```<button type="button" class="btn btn-danger " id="deletebulk" onclick="delectbulkaction('Home', 'DeleteBulk')"> Delete</button>```
+Them set the checkbox in table header
+    ```<th>
+        <input type="checkbox" id="selectAll">
+    </th>```
      
 - to set the delete list item set the following code inside the list content, and pass the Id as a value of the imput:
       ```<td>
           <input type="checkbox" id="chk" class="classchk" value="@item.Id">
-      </td>```
+      </td>``` 
+ 
      
 ### Code:
 in your controller method place this code, and do what ever task you need
