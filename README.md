@@ -1,5 +1,5 @@
 # ListBulkDelete
-Simple c# implementation of list bulk delete
+Simple c# implementation of bulk delete items in a list.
 
 
 ### Imports:
