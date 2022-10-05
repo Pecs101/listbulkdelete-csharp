@@ -12,7 +12,7 @@ Simple c# implementation of bulk delete items in a list.
     <link rel="stylesheet" href="~/bulkaction/bulkbtn.css" asp-append-version="true" /> 
     ```
     
-    
+### Code:   
 - DeletAll: 
 set the following code above the list, and pass in the controller and action name inside the delectbulkaction() function: 
     ``` 
@@ -30,14 +30,21 @@ set the following code above the list, and pass in the controller and action nam
     <td> 
         <input type="checkbox" id="chk" class="classchk" value="@item.Id"> 
     </td>
-    ``` 
+    ```  
  
-     
-### Code:
-in your controller method place this code, and do what ever task you need
+- in your controller method place this code, and do what ever task you need:
+   ```
+     public async Task<ActionResult> DeleteBulk(string[] data)
+        { 
+            data.ToList().ForEach(id =>
+            {
+                /// Do the task ...
+            });
 
-<img width="508" alt="Bulkdelete" src="https://user-images.githubusercontent.com/2583043/193856735-583985a8-65c7-4f06-821e-db5125a4e44f.png">
-  
+            return View("Index", _persons);
+        }
+   ```
+
 # Demo
 <img width="1008" alt="Bulkdelete" src="https://user-images.githubusercontent.com/2583043/193836547-6055823d-51b7-4150-8520-85f0b5b0c033.PNG">
 
