@@ -11,6 +11,10 @@ namespace ListBulkDelete.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+        }
+
+        public IActionResult Index()
+        {  
 
             _persons = new List<Person>() {
                 new Person() { Id = 1, Name = "Jhon Silva 1", Age = "16", Phone = "96532869" },
@@ -22,10 +26,7 @@ namespace ListBulkDelete.Controllers
                 new Person() { Id = 7, Name = "Jhon Silva 7", Age = "34", Phone = "96532869" },
                 new Person() { Id = 8, Name = "Jhon Silva 8", Age = "65", Phone = "96532869" },
             };
-        }
 
-        public IActionResult Index()
-        {  
             return View(_persons);
         }
 

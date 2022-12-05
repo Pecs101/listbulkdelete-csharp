@@ -1,7 +1,19 @@
 ﻿
 $("#deletebulk").prop('disabled', true); 
 
+
+function builk_delete_confirm_show(flag) {
+    if (flag === "show")
+        $("#builk_delete_confirm").show();
+    if (flag === "hide")
+        $("#builk_delete_confirm").hide();
+}
+
 function delectbulkaction(controller, action) {
+
+    $("#builk_delete_confirm_warning_text").hide();
+    $("#builk_delete_confirm_wait").show();
+
     var arrRes = getchecked();
 
     var link = '/' + controller + '/' + action;
@@ -12,7 +24,7 @@ function delectbulkaction(controller, action) {
         url: link,
         data: { data: arrRes },
         success: function (data) {
-            //location.reload();
+            location.reload();
         },
     });
 }
