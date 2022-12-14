@@ -1,6 +1,8 @@
 # ListBulkDelete
 Simple c# implementation of bulk delete items in a list.
 
+### Compatible with
+.NET Core 3.1 and above
 
 ### Imports:
   * js:
